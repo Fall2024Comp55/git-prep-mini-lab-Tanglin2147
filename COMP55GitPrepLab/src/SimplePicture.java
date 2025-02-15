@@ -1,4 +1,4 @@
-//comment one
+//Comment
 import java.awt.Color;
 
 import acm.graphics.GImage;
@@ -17,8 +17,6 @@ public class SimplePicture extends GraphicsProgram {
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github", 200, 400);
 		add(label);
-		label.setColor(Color.GREEN);
-		label.setFont("Ariel-Bold-20");
 	}
 	
 	public static void main(String[] args) {
